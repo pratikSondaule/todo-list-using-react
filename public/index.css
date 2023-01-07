@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.heading {
+  font-size: 28px;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.form input{
+  width: 220px;
+  border: transparent;
+  border-bottom: 4px dashed black;
+}
+
+.form input, button {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+.todoItem {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Exo 2', sans-serif;
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+.icon{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
